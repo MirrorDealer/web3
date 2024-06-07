@@ -1,0 +1,57 @@
+.body {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/wallpaper.jpg);
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.menu {
+    width: 800px ;
+    height: 400px;
+    background-color: rgba(83, 83, 83, 0.3);
+    margin-left: 25%;
+    backdrop-filter: blur(20px);
+    margin-right: 25%;
+    align-self: center;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    /* height: 150px; */
+    background-color: black;
+}
+.name {
+    font-size: 40px;
+    align-items: center;
+    display: flexbox;
+    align-self: center;
+    margin-left: 30%;
+    padding-top: 30px;
+    color:aliceblue;
+}
+.menu_element {
+    width: 100px;
+    height: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    display: flexbox;
+    float: left;
+}
+
+.menu_image {
+    width: 100px;
+    height: 100px;
+}
+
+.menu_text{
+    margin: 10px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+    color: aliceblue;
+}
